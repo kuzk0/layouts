@@ -1,0 +1,30 @@
+:root {
+    --green: #0b972a;
+    --dark: #181717;
+    --disable: #5f5b5b;
+    --white:#FFFFFF;
+    --bg: #252222;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: var(--bg);
+}
+ul {
+    list-style-type: none;
+}
+.conteyner {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+ul{
+    padding: 0;
+}

@@ -1,0 +1,18 @@
+// Global.
+@import 'global/default.scss';
+@import 'global/fonts.scss';
+@import 'global/normalize.scss';
+@import 'global/header.scss';
+@import 'global/pseudoInputs.scss';
+@import 'global/product.scss';
+@import 'global/footer';
+
+
+// Main page
+
+@import 'parts/mainPage/main.scss';
+
+
+// Main page
+
+@import 'parts/catalog/catalog.scss';

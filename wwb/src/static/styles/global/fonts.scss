@@ -1,0 +1,45 @@
+
+
+@font-face {
+  font-display: swap;
+  font-family: "Rubik One";
+  src: local("Rubik One"), 
+    url("../assets/fonts/rubikoneregular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Circe";
+  src: local("Circe"), 
+    url("../assets/fonts/Circe-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-display: swap;
+  font-family: "Circe";
+  src: local("Circe"), 
+    url("../assets/fonts/Circe-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "Circe";
+  src: local("Circe"), 
+    url("../assets/fonts/Circe-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-display: swap;
+  font-family: "Comic Sans Ms";
+  src: local("Comic Sans Ms"), 
+    url("../assets/fonts/comic-sans-ms-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}

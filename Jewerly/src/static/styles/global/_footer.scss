@@ -1,0 +1,146 @@
+.footer {
+    margin: 0 auto;
+    background: var(--gray);
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    .conteyner {
+        grid-gap: 16px;
+        position: relative;
+        padding-top: 32px;
+        padding-bottom: 42px;
+        display: grid;
+        grid-template-columns: repeat(4, 263px);
+        align-items: baseline;
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 2px;
+            background: #d8d1d1;
+            position: absolute;
+            top: -32px;
+        }
+    }
+    &__section {
+        width: 263px;
+    }
+
+    &__title {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        margin: 11px 1px;
+    }
+    &__desc {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--dark);
+        margin: 23px 0;
+    }
+
+    &__address {
+        color: var(--dark);
+        &-item {
+            font-family: "Gilroy";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0px 3px;
+            height: max-content;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            box-sizing: border-box;
+            padding: 7px 0;
+        }
+        &-icon {
+            margin-right: 6px;
+        }
+    }
+    &__wallet-logo {
+        width: 45px;
+        height: 30px;
+        margin-right: 16px;
+    }
+    &__links {
+        padding: 0;
+        margin: 23px 0 0 0;
+    }
+    &__link {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 17px 0 0 0;
+
+        a {
+            color: var(--accent);
+        }
+    }
+    &__feedback {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--accent);
+        background: transparent;
+        border: none;
+        margin: 4px 2px;
+        padding: 0;
+    }
+    &-social-link {
+        margin-right: 27px;
+    }
+    &__logo {
+        grid-column: span 4;
+        height: 30px;
+        margin: 6px 0 0px 0;
+    }
+    &__copy,
+    &__dev {
+        margin: -3px 0;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        word-spacing: 3px;
+    }
+    &__doc-link {
+        text-align: center;
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    &__garpix-logo {
+        margin: -5px 3px;
+    }
+    &__kuzko {
+        font-family: "Gilroy";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+        background-color: #e79087;
+        background: linear-gradient(315deg, #e79087 74%, #fcd181 0%);
+        background-size: 150%;
+        padding: 5px 10px;
+        border-radius: 10px;
+        &:hover {
+            background-position: -210%;
+            color: #ad0000;
+        }
+    }
+}

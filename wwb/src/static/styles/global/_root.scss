@@ -1,0 +1,29 @@
+:root {
+    --white: #ffffff;
+    --gray: #f9f9f9;
+    --gray2: #f1f1f1;
+    --dark: #898989;
+    --brown: #9d7247;
+    --brownOp03: #9d72474d;
+    --accent: #333333;
+    --red: #e97171;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+.conteyner{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.hidden{
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
